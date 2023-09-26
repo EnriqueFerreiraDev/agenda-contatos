@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;900&family=Fira+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   <div class="container">
+        <header>
+            <img src="./images/agenda.png" alt="agenda">
+            <div class="header-text">
+                <h1>AGENDA DE CONTATOS!</h1>
+                <h2>seus contatos sempre seguros</h2>
+            </div>
+        </header>
+        <form id="agenda-contatos">
+            <input type="text" id="nome-agenda" required placeholder="Nome" />
+            <input type="text" id="numero-agenda" required placeholder="Telefone" />
+            <input type="text" id="anotacoes-agenda" required placeholder="Anotações" />
+            <button type="submit">Adicionar</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                    <th>Anotações</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>@Desenvolvido por Enrique Ferreira</td>
+                    <td>Versão de teste</td>
+                    <td>Obrigado por testar!</td>
+                </tr>
+            </tfoot>
+        </table>
+   </div>
+   <script src="./main.js"></script>
+</body>
+</html>
